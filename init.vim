@@ -61,7 +61,7 @@ noremap  <leader>p  :FloatermToggle<CR>PyExec<CR>
 
 
 " Plugins Essenciais
-call plug#begin("~/.config/nvim/plugins")
+call plug#begin("~/.config/nvim/.plugins_pre_carregados")
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'preservim/nerdtree'
 Plug 'chrisbra/Colorizer'
