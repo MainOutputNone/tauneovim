@@ -6,6 +6,7 @@
 "          <3
 "          ASSIM COMO VISTO NOS 'Planos Fututos'. Todo o tauNeoVIM, sera em
 "          Lua
+
 filetype plugin indent on 
 set nu!
 set ruler
@@ -39,13 +40,16 @@ map <C-A-g> G " Fim do arquivo
 map <C-g> :
 map <C-A-f> :%s/
 map <C-A-m> :MarkdownPreview<CR>
+
 " Definindo 'chave mestra'
 let mapleader = " "
+
 " Terminal Flutuante <3
 noremap  <leader>t  :FloatermToggle<CR>
 "map  <C-t>  :FloatermToggle<CR>i " Config For ANDROID
 noremap! <leader>t  <Esc>:FloatermToggle<CR>
 tnoremap <leader>t  <C-\><C-n>:FloatermToggle<CR>
+
 " Config para Tamanho
 
 "let g:floaterm_width = 100
@@ -54,10 +58,10 @@ tnoremap <leader>t  <C-\><C-n>:FloatermToggle<CR>
 "Config para 'Rodar o Codigo'
 
 "Rodar meu script 'CCompiler'
-noremap  <leader>c  :FloatermToggle<CR>compiler<CR>
+noremap  <leader>c  :FloatermToggle<CR>$HOME/.config/nvim/scripts/CCompiler/compiler<CR>
 
 " Rodar Python com script 'PyExec'
-noremap  <leader>p  :FloatermToggle<CR>PyExec<CR>
+noremap  <leader>p  :FloatermToggle<CR>$HOME/.config/nvim/scripts/PythonExec/PyExec<CR>
 
 
 " Plugins Essenciais

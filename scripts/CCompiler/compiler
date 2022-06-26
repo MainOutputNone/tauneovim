@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#DIR="$(cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
+DIR="$(cd "$(dirname \$0)" && pwd)"
+
+clear
+printf  "\n\e[1;33m_____________________"
+printf  "\n\e[1;33m Compilar e Executar\e[0m\n"
+printf  "Nome do arquivo 'source' em \e[1;34mC/C++\e[0m: " && read sourceFile
+clear
+printf  "\n\e[1;33m_____________________"
+printf  "\n\e[1;33m Compilar e Executar\e[0m\n"
+printf  "\n\e[1;35m Compilando ...\e[0m"
+
+g++ $DIR/src/$sourceFile.* -o $DIR/bin/$sourceFile
+
+printf  "\nTentar executar a saida? y/N: " && read respostaExecutar
+if [ $respostaExecutar == 'y' ]; then
+    clear
+    printf  "\n\e[1;33m_____________________"
+    printf  "\n\e[1;33m Compilar e Executar\e[0m\n"
+    printf  "\n\e[1;35m Executando...\e[0m\n"
+    printf  "\n\e[1;33m----------\/---------\e[0m\n"
+    printf  "\e[1;35m Inicio.\e[0m\n"
+    $DIR/bin/$sourceFile
+    printf  "\n\e[1;35m Fim.\e[0m"
+else
+    printf  "\n\e[1;35m Fim."
+fi

@@ -1,0 +1,20 @@
+#!/bin/bash
+DIR="$(cd "$(dirname \$0)" && pwd)"
+file_path="(basename  "$DIR")"
+clear
+alias ls='lsd'
+printf "\n\e[1;34m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\e[0m"
+printf "\n\e[1;34m▬▬▬▬\e[0;32m Python Exec\e[1;34m ▬▬▬▬\e[0m"
+printf "\n\e[1;34m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\e[0m\n"
+printf "\n\e[0;34m▼ Arquivos \e[1;32m.py\e[0;34m no atual diretorio ▼\e[0m\n\n"
+ls *.py
+printf "\e[1;34m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\e[0m\n"
+printf "\n\e[0;32m Insira o nome arquivo \n►\e[0m " && read fileName
+clear
+printf "\n\e[1;34m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\e[0m"
+printf "\n\e[1;34m▬▬▬▬\e[0;32m Python Exec\e[1;34m ▬▬▬▬\e[0m"
+printf "\n\e[1;34m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\e[0m\n"
+printf "\n\e[0;42m Executando... \e[0m\n"
+printf "\n\e[1;34m- Inicio -\e[0m\n"
+python3 $fileName.py
+printf "\n\e[1;34m- Final -\e[0m\n"
