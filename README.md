@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://user-images.githubusercontent.com/107779952/175797335-cc621ca2-8363-433a-84a3-8a701bda224c.png"/></p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/107779952/175797783-2814d7e9-2514-4b17-9322-916994c6bb8d.png"/></p>
 
 # τau
 
@@ -17,3 +17,7 @@ O Projeto tem como objetivo tornar o **[Neovim](https://neovim.io)**, uma distri
 A principal ideia do <span style="color:yellow">τau</span>
 
 #### ⚙️ <a id="Instalação"></a>Instalação
+##### 🚨 REQUISITOS!
+- Possuir instalado **`neovim`** versão **0.7+*
+- **`git`**
+**Instalação Simples** **➜** `git clone https://github.com/MainOutputNone/tauneovim ~/.config/nvim` 
