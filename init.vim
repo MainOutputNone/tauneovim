@@ -66,7 +66,7 @@ noremap  <leader>p  :FloatermToggle<CR>$HOME/.config/nvim/scripts/PythonExec/PyE
 
 " Plugins Essenciais
 call plug#begin("~/.config/nvim/.plugins_pre_carregados")
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'preservim/nerdtree'
 Plug 'chrisbra/Colorizer'
 "Plug 'ryanoasis/vim-devicons'
@@ -178,7 +178,6 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 
-autocmd CursorHold * silent call CocActionAsync('highlight')
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
 function! s:check_back_space() abort
