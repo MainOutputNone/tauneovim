@@ -27,5 +27,8 @@ A principal ideia do [τau.nvim](https://github.com/MainOutputNone/tauneovim), �
 ## Instalação simples, um comando. Basta copiar e colar em seu terminal
 
 ```bash
-git clone https://github.com/MainOutputNone/tauneovim ~/.config/nvim
+git clone https://github.com/MainOutputNone/tauneovim ~/.config/nvim && nvim +PlugInstall
 ```
+Após a instalação, o **[Neovim](https://neovim.io)** será aberto para a instação dos plugins. Após finalizar, _*PRESSIONE*_ a letra_*Q*_, do seu teclado. E saia do **[Neovim](https://neovim.io)** e entre novamente. 
+
+Com esta instalação. Vira com um tema padrão chamado 'Mountain', mas podendo ser alterado manualmente no seu `init.vim`. **(A troca de Temas/Esquemas, sera feita dentro de uma interface interativa no NeoVIM, isso será implementado no Futuro.)**
