@@ -27,6 +27,8 @@ set textwidth=0
 set encoding=UTF-8
 set updatetime=100
 set noshowmode
+set completeopt=menuone,noinsert,noselect
+set shortmess+=c
 
 " Keymaps
 map q :q<CR> " Sair do NeoVIM
@@ -68,7 +70,6 @@ noremap  <leader>p  :FloatermToggle<CR>$HOME/.config/nvim/scripts/PythonExec/PyE
 call plug#begin("~/.config/nvim/.plugins_pre_carregados")
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'preservim/nerdtree'
-Plug 'chrisbra/Colorizer'
 "Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'vim-airline/vim-airline'
@@ -108,6 +109,8 @@ Plug 'Yggdroot/indentLine'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 Plug 'mountain-theme/vim'
+"Plug 'max397574/colortils.nvim'
+Plug 'norcalli/nvim-colorizer.lua'
 
 call plug#end()
 
@@ -145,8 +148,8 @@ let g:mkdp_auto_close = 0
 lua require('basic')
 " - Custom Settings -
 luafile $HOME/.config/nvim/lua/lsp_config.lua
-set completeopt=menuone,noinsert,noselect
-set shortmess+=c
+luafile $HOME/.config/nvim/.plugins_pre_carregados/nvim-lspconfig/lua/lspconfig.lua
+lua require'colorizer'.setup()
 
 "ale
 let b:ale_fixers = ['prettier', 'eslint']
