@@ -196,7 +196,7 @@ inoremap <silent><expr> <c-space> coc#refresh()
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 "colorscheme tokyonight
-colorscheme moonfly
+"colorscheme moonfly
 "colorscheme everblush
 "colorscheme ayu
 "colorscheme omni
@@ -204,7 +204,7 @@ colorscheme moonfly
 "colorscheme neodark
 "colorscheme github_dark_default
 "colorscheme equinusocio_material
-"colorscheme mountain
+colorscheme mountain
 
 " Catppuccin
 let g:catppuccin_flavour = "frappe" " latte, frappe, macchiato, mocha
