@@ -24,7 +24,7 @@ A principal ideia do [τau.nvim](https://github.com/MainOutputNone/tauneovim), �
 
 | ![RustCrag](https://user-images.githubusercontent.com/107779952/175800003-f8ae3831-1802-4648-b2d3-815925ff8ec7.png) | Faça a instalação do [Rust](https://www.rust-lang.org/) toolchain através da ferramenta 'rustup'. Por este [site](https://rustup.rs), você instala a toolchain do rust da maneira correta. 
 
-## Instalação simples, um comando. Basta copiar e colar em seu terminal
+## 👆 <a id="umComando"></a>Instalação simples, um comando. Basta copiar e colar em seu terminal
 
 ```bash
 git clone https://github.com/MainOutputNone/tauneovim ~/.config/nvim && nvim +PlugInstall
