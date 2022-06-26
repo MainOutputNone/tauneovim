@@ -9,14 +9,17 @@
 - [Objetivos](#Obj)
 - [Planos Futuros](#future)
 
-#### 👔 <a id="Apresentação"></a>Apresentação
+# 👔 <a id="Apresentação"></a>Apresentação
 
 O Projeto tem como objetivo tornar o **[Neovim](https://neovim.io)**, uma distribuição para desenvolvimento, mais **facil!**. Pois temos algumas outras tantas "distros" do **[Neovim](https://neovim.io)** por ai, mas que não são tão simples de se aprender a utilizar, e todas estão em inglês.
 
 A principal ideia do <span style="color:yellow">τau</span>
 
-#### ⚙️ <a id="Instalação"></a>Instalação
-##### 🚨 REQUISITOS!
-- Possuir instalado **`neovim`** versão **0.7+*
+<span style="color:blue">some *blue* text</span>.
+
+# ⚙️ <a id="Instalação"></a>Instalação
+##### 🚨 Pré-requisitos
+
+-  Garanta que ao menos você tenha instalado o **`neovim`** em sua maquina. Versão mínima **0.7.0+**
 - **`git`**
 **Instalação Simples** **➜** `git clone https://github.com/MainOutputNone/tauneovim ~/.config/nvim` 
