@@ -20,7 +20,10 @@ A principal ideia do [τau.nvim](https://github.com/MainOutputNone/tauneovim), �
 ##### 🚨 Pré-requisitos
 
 -  Garanta que ao menos você tenha instalado o **`neovim`** em sua maquina. Versão mínima **0.7.0+**
-- **`git`**
+- Você tera que ter instalado os seguintes pacotes: **`git`**, **`curl`**, **`cargo`**, **`node`**, **`pip`**
+
+![RustCrag](https://user-images.githubusercontent.com/107779952/175799857-135ce4f4-873e-4f78-b3dd-1751931fb444.png) Faça a instalação do [Rust](https://www.rust-lang.org/) toolchain através da ferramenta 'rustup'. Por este [site](https://rustup.rs), você instala a toolchain do rust da maneira correta. 
+
 ## Instalação simples, um comando. Basta copiar e colar em seu terminal
 
 ```bash
