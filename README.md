@@ -1,6 +1,4 @@
-<p align="center"> <img src="https://user-images.githubusercontent.com/107779952/175797783-2814d7e9-2514-4b17-9322-916994c6bb8d.png"/></p>
-
-# τau
+<p align="center"> <img src="https://user-images.githubusercontent.com/107779952/175798381-7dd2e8e9-4bb6-4eef-96e3-248e4d43743a.png"/></p>
 
 <p align="center"> 🖥 NeoVIM Terminal IDE Script </p>
 
