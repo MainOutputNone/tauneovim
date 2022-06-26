@@ -1,4 +1,5 @@
-<p align="center"> <img src="https://user-images.githubusercontent.com/107779952/175798381-7dd2e8e9-4bb6-4eef-96e3-248e4d43743a.png"/></p>
+[//]: # (<p align="center"> <img src="https://user-images.githubusercontent.com/107779952/175798381-7dd2e8e9-4bb6-4eef-96e3-248e4d43743a.png"/></p>)
+<p align="center"> <img src="https://user-images.githubusercontent.com/107779952/175799142-237b87c4-230b-4c9d-93ea-d098e54b6a85.png"/></p>
 
 <p align="center"> 🖥 NeoVIM Terminal IDE Script </p>
 
